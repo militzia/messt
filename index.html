@@ -52,7 +52,7 @@
                     </ul>
                 </li>
                 <li><a href="#">Where We Serve</a></li>
-               
+                <li><a href="#">My Vocation Story</a></li>
             </ul>
         </nav>
     </div>
@@ -61,9 +61,10 @@
     <main>
         <section class="carousel-container">
     <div class="slider">
-        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1519810755548-39cd217da494?auto=format&fit=crop&w=1920&q=80');"></div>
-        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1445052517642-1e9619c9e54d?auto=format&fit=crop&w=1920&q=80');"></div>
-        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="slide active" style="background-image: url('img/carrusel1.jpg');"></div>
+        <div class="slide" style="background-image: url('img/carrusel2.jpg');"></div>
+        <div class="slide" style="background-image: url('img/carrusel3.jpg');"></div>
+        <div class="slide" style="background-image: url('img/carrusel4.jpg');"></div>
     </div>
     <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
     <button class="next" onclick="changeSlide(1)">&#10095;</button>
@@ -98,23 +99,23 @@
                     <img src="img/service.jpg" alt="Serving God">
                 </div>
                 <h4>Service</h4>
-                <p>Imitating Christ through humble action.</p>
+                <p>A missionary cannot reserve anything because they burn with zeal for the salvation of souls. <br> -M. Enriqueta Rodriguez Noriega, MESST.</p>
             </div>
 
             <div class="charism-item">
                 <div class="charism-img-wrapper">
-                    <img src="img/eucharist.jpg" alt="The Eucharist">
+                    <img src="img/eucaristia.png" alt="The Eucharist">
                 </div>
                 <h4>Eucharist</h4>
-                <p>Our source of strength and life.</p>
+                <p>Jesus loves us through the Priesthood; Jesus loves us from the Eucharist, the very language of love. </p>
             </div>
 
             <div class="charism-item">
                 <div class="charism-img-wrapper">
-                    <img src="img/joy.jpg" alt="Spreading Joy">
+                    <img src="img/joy.jpeg" alt="Spreading Joy">
                 </div>
                 <h4>Joy</h4>
-                <p>Spreading God's light to the world.</p>
+                <p>Carry the joy of the Holy Spirit within your hearts and go forth to share it with the many souls who are burdened by sadness because they have not yet encountered the love of God. <br> -P. Pablo Guzman .</p>
             </div>
         </div>
     </div>
@@ -174,10 +175,10 @@
         navLinks.classList.toggle('active');
     });
 
-    // 2. Cerrar el menú cuando se hace clic en cualquier enlace
+    
     navItems.forEach(item => {
         item.addEventListener('click', () => {
-            // Solo lo cerramos si el menú está desplegado (en móviles)
+            
             if (navLinks.classList.contains('active')) {
                 navLinks.classList.remove('active');
             }
@@ -197,10 +198,7 @@ function changeSlide(n) {
 }
 
 // Cambio automático cada 5 segundos
-setInterval(() => changeSlide(1), 2000);
+setInterval(() => changeSlide(1), 5000);
 </script>
 </body>
-
 </html>
-
-
