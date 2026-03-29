@@ -473,12 +473,11 @@ h5{
         font-size: 0.9rem;
     }
 .mission-statement {
-
         min-height: auto;
-
         padding: 40px 20px;
-
         text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.5;
 
     }
 }
