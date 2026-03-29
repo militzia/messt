@@ -451,7 +451,7 @@ h5{
 @media (max-width: 768px) {
 
 .carousel-container {
-    height: 50vh;
+    height: 50vw;
     padding-right: 0;
 }
 .prev, .next {
