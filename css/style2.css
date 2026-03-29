@@ -452,6 +452,7 @@ h5{
 
 .carousel-container {
     height: 45vh;
+    padding-right: 0;
 }
 .prev, .next {
     padding: 10px;
