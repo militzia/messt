@@ -497,4 +497,10 @@ h5{
         line-height: 1.5;
 
     }
+ .main-quote {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
